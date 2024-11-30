@@ -1,0 +1,33 @@
+{
+    "dtype": "exp",
+    "dim": 1,
+    "batch_size": 128,
+    "x_dim": 1,
+    "h_dims": [
+        20,
+        20,
+        20
+    ],
+    "z_dim": 1,
+    "u_dim": 1,
+    "ftype": "IS",
+    "act": "PReLU(num_parameters=1)",
+    "num_samples": 100,
+    "use_normalization": true,
+    "use_skip_connection_encoder": false,
+    "use_skip_connection_decoder": false,
+    "kl_min": 1,
+    "kl_max": 1,
+    "sigma2": "[0.20724341]",
+    "fix_dim": 5,
+    "fix_bias": false,
+    "rand_dim": 1,
+    "lambda_1": 1,
+    "lambda_2": 1,
+    "lr": 0.0001,
+    "wd": 0,
+    "epochs": 1000,
+    "seed": 46,
+    "name": "anode22",
+    "device": "cuda"
+}

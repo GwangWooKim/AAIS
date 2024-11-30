@@ -1,0 +1,31 @@
+{
+    "dtype": "copula",
+    "dim": "copula",
+    "batch_size": 1000,
+    "x_dim": 11,
+    "h_dims": [
+        50
+    ],
+    "z_dim": 5,
+    "u_dim": 5,
+    "ftype": "IS",
+    "act": "PReLU(num_parameters=1)",
+    "num_samples": 100,
+    "use_normalization": true,
+    "use_skip_connection_encoder": false,
+    "use_skip_connection_decoder": true,
+    "kl_min": 1,
+    "kl_max": 1,
+    "sigma2": "[0.01]",
+    "fix_dim": 5,
+    "fix_bias": false,
+    "rand_dim": 5,
+    "lambda_1": 1,
+    "lambda_2": 1,
+    "lr": 0.0001,
+    "wd": 0.0,
+    "epochs": 2000,
+    "seed": 113,
+    "name": "anode23",
+    "device": "cuda"
+}
