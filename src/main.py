@@ -85,7 +85,7 @@ def main():
     # if skip_connection = False, it works like an usual weight decay
     optimizer = torch.optim.Adam(wd_groupping(model), lr = model.lr)
     model = train(model, optimizer, train_loader)
-    eval_(model, u, train_loader, save = False, title = None, save_path = f'./{ftype}_{dtype}')
+    eval_(model, u, train_loader, save = True, title = None, save_path = f'./{ftype}_{dtype}')
     save_model(model, save_path = f'./{ftype}_{dtype}')
     
 if __name__ == '__main__':
