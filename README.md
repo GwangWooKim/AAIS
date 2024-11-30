@@ -8,6 +8,7 @@ This repository provides an implementation for reproducing the results in the pa
 * scipy
 * matplotlib
 * umap
+  
 We used the fundamental functions of these packages. So, we think their versions are not important.
 
 ## How to start
