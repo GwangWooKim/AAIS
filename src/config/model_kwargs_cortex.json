@@ -1,0 +1,32 @@
+{
+    "dtype": "cortex",
+    "dim": "cortex",
+    "batch_size": 128,
+    "x_dim": 1200,
+    "h_dims": [
+        128,
+        256
+    ],
+    "z_dim": 10,
+    "u_dim": 1200,
+    "ftype": "IS",
+    "act": "PReLU(num_parameters=1)",
+    "num_samples": 100,
+    "use_normalization": true,
+    "use_skip_connection_encoder": false,
+    "use_skip_connection_decoder": false,
+    "kl_min": 0,
+    "kl_max": 1,
+    "sigma2": "[0.01]",
+    "fix_dim": 5,
+    "fix_bias": false,
+    "rand_dim": 1200,
+    "lambda_1": 0.0001,
+    "lambda_2": 0.0001,
+    "lr": 0.001,
+    "wd": 0.0,
+    "epochs": 200,
+    "seed": 75,
+    "name": "anode23",
+    "device": "cuda"
+}

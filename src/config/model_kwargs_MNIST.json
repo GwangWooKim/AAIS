@@ -1,0 +1,32 @@
+{
+    "dtype": "MNIST",
+    "dim": "MNIST",
+    "batch_size": 128,
+    "x_dim": 784,
+    "h_dims": [
+        256,
+        512
+    ],
+    "z_dim": 10,
+    "u_dim": 784,
+    "ftype": "IS",
+    "act": "PReLU(num_parameters=1)",
+    "num_samples": 100,
+    "use_normalization": true,
+    "use_skip_connection_encoder": false,
+    "use_skip_connection_decoder": false,
+    "kl_min": 0,
+    "kl_max": 1,
+    "sigma2": "[0.01]",
+    "fix_dim": 5,
+    "fix_bias": false,
+    "rand_dim": 784,
+    "lambda_1": 1,
+    "lambda_2": 1,
+    "lr": 0.001,
+    "wd": 0,
+    "epochs": 100,
+    "seed": 42,
+    "name": "anode22",
+    "device": "cuda"
+}
