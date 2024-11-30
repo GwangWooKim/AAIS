@@ -24,5 +24,6 @@ linear = c(x %*% beta) + rowSums(w * u)
 y = matrix(rpois(nsim, exp(linear)) + 0.0, ncol = 1)
 
 data = data.frame(x = x, w = w, y = y, u = u)
+write.csv(data, 'copula.csv')
 
 # VerbAgg is generated and processed in GLMM.R
