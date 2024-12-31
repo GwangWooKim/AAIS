@@ -21,6 +21,9 @@ If you want to explore the data generation process, please check `data_generatio
 * `--seed` (or `-s`): Seed. `Default = 42`.
 * `--dtype` (or `-d`): Datatype. Possible arguments are `exp`, `mix`, `copula`, `MNIST`, `cortex`, `VerbAgg`. `Default = exp`.
 
+### Output
+<img src="histogram_exp.png" width="85%" height="85%">
+
 ## Customization
 For customization, first prepare your data and create a config file with your desired values. 
 The data should be loaded through the `dataloader.py` file, and the config file must be placed in the `config` folder. 
