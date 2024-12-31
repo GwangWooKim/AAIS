@@ -23,6 +23,9 @@ If you want to explore the data generation process, please check `data_generatio
 
 ### Output
 <img src="histogram_exp.png" width="70%" height="70%">
+After training, the evaluation results are automatically saved. `model_states.pt` and `model_kwargs.json` are always saved. Qualitative and quantitative results are different for each experiment. 
+For example, if you run with `-d exp`, `histogram.png` visualizes latent variable modeling on exp data, and `distances.json` has evaluation metrics used for the histogram.
+
 
 ## Customization
 For customization, first prepare your data and create a config file with your desired values. 
