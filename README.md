@@ -22,7 +22,7 @@ If you want to explore the data generation process, please check `data_generatio
 * `--dtype` (or `-d`): Datatype. Possible arguments are `exp`, `mix`, `copula`, `MNIST`, `cortex`, `VerbAgg`. `Default = exp`.
 
 ### Output
-<img src="histogram_exp.png" width="85%" height="85%">
+<img src="histogram_exp.png" width="70%" height="70%">
 
 ## Customization
 For customization, first prepare your data and create a config file with your desired values. 
