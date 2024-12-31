@@ -28,7 +28,7 @@ For example, if you run with `-d exp`, `histogram.png` visualizes latent variabl
 
 
 ## Customization
-For customization, first prepare your data and create a config file with your desired values. 
+For customization, you can prepare your data and create a config file with your desired values. 
 The data should be loaded through the `dataloader.py` file, and the config file must be placed in the `config` folder. 
 If the likelihood for your data is not included in `nll.py`, you need to add it yourself. 
 If you want to perform an evaluation, add your custom function to `eval.py`.
